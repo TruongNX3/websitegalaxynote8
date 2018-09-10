@@ -1,0 +1,69 @@
+#accessories {
+    width: 100%;
+    height: auto;
+}
+
+#accessories-title {
+    width: 100%;
+    height: auto;
+}
+
+#accessories-title p {
+    text-align: center;
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 5px auto;
+}
+
+#accessories-text-1 p {
+    text-align: center;
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+#accessories-text-2 p {
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    margin: 25px 29%;
+}
+
+#accessories-text-3 p {
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 25px auto;
+}
+
+#button-learn-more {
+    border: solid 2px black;
+    text-align: center;
+    margin: 10px 42%;
+    padding: 15px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    text-space: 2px;
+    word-spacing: 4px;
+}
+
+#button-learn-more a {
+    color: inherit;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+#button-learn-more:hover {
+    color: white;
+    background-color: black;
+}
+
+#accessories-img {
+    width: 100%;
+    height: 550px;
+    background: url("images/galaxy-note8_acc.jpg") no-repeat center;
+}
