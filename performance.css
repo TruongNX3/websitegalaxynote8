@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+}
+
+#performance {
+    background: url("images/galaxy-note8_performance.jpg") no-repeat center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+#performance-title {
+    padding-top: 100px;
+    width: 100%;
+    height: auto;
+    color: white;
+}
+
+#performance-title p {
+    text-align: center;
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 5px auto;
+}
+
+#performance-text-1 p {
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: 56px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+#performance-text-2 {
+    margin-top: 40px;
+}
+
+#performance-text-2 p {
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    margin: 5px auto;
+}
+
+#performance-text-3 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+#performance-text-3 p {
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 5px auto;
+}
+
+#button-learn-more-performance {
+    border: solid 2px white;
+    text-align: center;
+    margin: 30px 42%;
+    padding: 15px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    text-space: 2px;
+    word-spacing: 4px;
+    color: white;
+    clear: both;
+}
+
+#button-learn-more-performance a {
+    color: inherit;
+    background-color: inherit;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+#button-learn-more-performance:hover {
+    color: black;
+    background-color: white;
+}
+
+/*#performance-img {*/
+/*width: 100%;*/
+/*height: 550px;*/
+/*background: url("images/phone-plus.png") no-repeat center;*/
+/*}*/
+
+#performance-icon-line {
+    margin: 50px 30%;
+    /*background-color: black;*/
+    width: auto;
+    display: flex;
+}
+.performance-icon-block {
+    float: left;
+    flex: 1;
+}
+
+.performance-icon{
+text-align: center;
+}
+.performance-icon img {
+    width: 56px;
+    height: auto;
+}
+.performance-text-icon {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-family: Arial;
+    margin: 0 12%;
+}
+
+.clear{
+    clear: both;
+}
+#performance-frame-image {
+    background: url("images/galaxy-note8_performance_phone_v2.png") no-repeat center;
+    margin-top: 115px;
+    width: 100%;
+    height: 400px;
+}
+
