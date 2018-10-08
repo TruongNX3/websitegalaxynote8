@@ -1,51 +1,362 @@
-body{
+body {
     margin: 0;
 }
+
 #header-logo {
     background-color: #212425;
     height: 50px;
 }
-#logo-text{
+
+#logo-text {
     width: 85%;
     float: left;
 }
-#text-logo{
+
+#text-logo {
     margin-top: 7px;
     margin-left: 2%;
     font-size: 20px;
     color: white;
     font-family: Arial;
 }
-#button-buy{
-    background-color:#0074c2;
+
+#button-buy {
+    background-color: #0074c2;
     width: 15%;
     float: left;
 }
+
 #text-btn-buy {
     text-align: center;
     color: white;
-    font-family:VnTimeH;
+    font-family: Arial;
 }
-#header-menu{
+
+#header-menu {
     background-color: #17191a;
     height: 40px;
     float: left;
     width: 100%;
 }
-#ul-header-menu{
+
+#ul-header-menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
+
 .li-header-menu {
     float: left;
 }
-.a-header-menu{
+.li-header-menu:hover {
+    float: left;
+}
+
+.a-header-menu {
     display: block;
     color: white;
+    margin: 3px 0;
     text-align: center;
     padding: 12px;
     text-decoration: none;
     font-size: 12px;
+}.a-header-menu:hover {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 12px;
+     text-decoration: none;
+     border: blue solid 3px;
+     font-size: 12px;
+ }
+
+#video {
+    width: 100%;
+    display: flex;
+    height: auto;
 }
+
+#video-1 {
+    flex: 1;
+}
+
+#video-2 {
+    flex: 1;
+}
+
+#banner-video {
+    flex: 1;
+}
+#phone-plus {
+    width: 100%;
+    height: auto;
+}
+
+#phone-plus-title {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+#phone-plus-title p {
+    text-align: center;
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 5px auto;
+}
+
+#phone-plus-text-1 p {
+    text-align: center;
+    font-family: Arial;
+    font-size: 56px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+#phone-plus-text-2 {
+    margin-top: 40px;
+}
+#phone-plus-text-2 p {
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    margin: 5px auto;
+}
+
+#phone-plus-text-3 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+#phone-plus-text-3 p {
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 5px auto;
+}
+
+#button-learn-more-phone-plus {
+    border: solid 2px black;
+    text-align: center;
+    margin: 10px 42%;
+    padding: 15px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    text-space: 2px;
+    word-spacing: 4px;
+}
+
+#button-learn-more-phone-plus a {
+    color: inherit;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+#button-learn-more-phone-plus:hover {
+    color: white;
+    background-color: black;
+}
+
+#phone-plus-img {
+    width: 100%;
+    height: 550px;
+    background: url("images/phone-plus.png") no-repeat center;
+}
+#performance {
+    background: url("images/galaxy-note8_performance.jpg") no-repeat center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+#performance-title {
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+    color: white;
+}
+
+#performance-title p {
+    text-align: center;
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 5px auto;
+}
+
+#performance-text-1 p {
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: 56px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+#performance-text-2 {
+    margin-top: 40px;
+}
+
+#performance-text-2 p {
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    margin: 5px auto;
+}
+
+#performance-text-3 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+#performance-text-3 p {
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 5px auto;
+}
+
+#button-learn-more-performance {
+    border: solid 2px white;
+    text-align: center;
+    margin: 30px 42%;
+    padding: 15px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    text-space: 2px;
+    word-spacing: 4px;
+    color: white;
+    clear: both;
+}
+
+#button-learn-more-performance a {
+    color: inherit;
+    background-color: inherit;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+#button-learn-more-performance:hover {
+    color: black;
+    background-color: white;
+}
+
+/*#performance-img {*/
+/*width: 100%;*/
+/*height: 550px;*/
+/*background: url("images/phone-plus.png") no-repeat center;*/
+/*}*/
+
+#performance-icon-line {
+    margin: 50px 30%;
+    /*background-color: black;*/
+    width: auto;
+    display: flex;
+}
+.performance-icon-block {
+    float: left;
+    flex: 1;
+}
+
+.performance-icon{
+    text-align: center;
+}
+.performance-icon img {
+    width: 56px;
+    height: auto;
+}
+.performance-text-icon {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-family: Arial;
+    margin: 0 12%;
+}
+
+.clear{
+    clear: both;
+}
+#performance-frame-image {
+    background: url("images/galaxy-note8_performance_phone_v2.png") no-repeat center;
+    margin-top: 115px;
+    width: 100%;
+    height: 400px;
+}
+#accessories {
+    width: 100%;
+    height: auto;
+}
+
+#accessories-title {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+#accessories-title p {
+    text-align: center;
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 5px auto;
+}
+
+#accessories-text-1 p {
+    text-align: center;
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+#accessories-text-2 p {
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    margin: 25px 29%;
+}
+
+#accessories-text-3 p {
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 25px auto;
+}
+
+#button-learn-more {
+    border: solid 2px black;
+    text-align: center;
+    margin: 10px 42%;
+    padding: 15px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    text-space: 2px;
+    word-spacing: 4px;
+}
+
+#button-learn-more a {
+    color: inherit;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+#button-learn-more:hover {
+    color: white;
+    background-color: black;
+}
+
+#accessories-img {
+    height: 550px;
+    padding: 0 25%;
+    /*background: url("images/galaxy-note8_acc.jpg") no-repeat center;*/
+}
+
+
