@@ -13,7 +13,7 @@
     left: 0;
     display: block;
     position: absolute;
-    width: 200px;
+    width: 250px;
     padding: 85px 50px 65px 50px;
 }
 #control-next{
@@ -24,7 +24,7 @@
     display: block;
     position: absolute;
     text-align: right;
-    width: 200px;
+    width: 250px;
     padding: 85px 50px 65px 50px;
     right: 0;
 }
@@ -69,6 +69,7 @@ a{
 }
  #button-sansang a:hover{
     background: white;
+     color: black;
 }
 #image-banner-header-buy{
     height: 330px;

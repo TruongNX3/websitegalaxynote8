@@ -1,63 +1,82 @@
-body{
+body {
     margin: 0;
 }
+
 #header-logo {
     background-color: #212425;
     height: 50px;
-    width: 100%;
-    top: 0px;
-    left: 0px;
     position: fixed;
-    z-index: 10;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999999;
 }
-#logo-text{
+
+#logo-text {
     width: 85%;
     float: left;
 }
-#text-logo{
+
+#text-logo {
     margin-top: 7px;
     margin-left: 2%;
     font-size: 20px;
     color: white;
     font-family: Arial;
 }
-#button-buy{
-    background-color:#0074c2;
+
+#button-buy {
+    background-color: #0074c2;
     width: 15%;
     float: left;
 }
+
 #text-btn-buy {
     text-align: center;
     color: white;
-    font-family:VnTimeH;
+    font-family: Arial;
 }
-#header-menu{
+
+#header-menu {
     background-color: #17191a;
+    height: 40px;
+    /*float: left;*/
+    width: 100%;
     position: fixed;
     top: 50px;
-    left: 0px;
-    height: 40px;
-    float: left;
-    width: 100%;
-    z-index: 10;
+    left: 0;
+    z-index: 999999;
 }
-#ul-header-menu{
+
+#ul-header-menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
+
 .li-header-menu {
     float: left;
 }
-.a-header-menu{
+
+.a-header-menu {
+    margin: 0;
     display: block;
     color: white;
     text-align: center;
     padding: 12px;
     text-decoration: none;
     font-size: 12px;
-}
+}.a-header-menu:hover {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 12px;
+     text-decoration: none;
+     border-top: #1f30ff solid 2px;
+     font-size: 12px;
+ }
+
 #spec-title-h1{
     text-align: center;
     padding: 100px;
@@ -188,7 +207,7 @@ figcaption{
     left: 0;
     display: block;
     position: absolute;
-    width: 200px;
+    width: 250px;
     padding: 85px 50px 65px 50px;
 }
 #control-next{
@@ -199,7 +218,7 @@ figcaption{
     display: block;
     position: absolute;
     text-align: right;
-    width: 200px;
+    width: 250px;
     padding: 85px 50px 65px 50px;
     right: 0;
 }

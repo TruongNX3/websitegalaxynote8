@@ -44,7 +44,6 @@ body {
     /*float: left;*/
     width: 100%;
     position: fixed;
-    width: 100%;
     top: 50px;
     left: 0;
     z-index: 999999;
@@ -62,24 +61,37 @@ body {
 }
 
 .a-header-menu {
+    margin: 0;
     display: block;
     color: white;
     text-align: center;
     padding: 12px;
     text-decoration: none;
     font-size: 12px;
-}
+}.a-header-menu:hover {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 12px;
+     text-decoration: none;
+     border-top: #1f30ff solid 2px;
+     font-size: 12px;
+ }
+
 
 #content-1 {
     background-color: black;
     /*position: relative;*/
     width: 100%;
+    margin-top: 150px;
     height: auto;
 
 }
-#text-title-content-1{
+
+#text-title-content-1 {
     height: 500px;
 }
+
 #text-title-ctn-1 {
     margin-top: 0;
     text-align: center;
@@ -107,7 +119,7 @@ body {
 }
 
 #design-icon-line {
-    top: 500px;
+    top: 650px;
     position: absolute;
 }
 
@@ -165,16 +177,130 @@ body {
     font-family: Arial;
     margin: 0;
 }
-#clear-content-1 {
-     margin-top: 50px;
-     width: 100%;
 
- }
-#content-4 {
+#clear-content-1 {
+    margin-top: 120px;
+    width: 100%;
+
+}
+
+#content-2 {
+    background: url("images/galaxy-note8_design_experience_bg.jpg") no-repeat center;
+    width: 100%;
+    height: 900px;
+}
+
+#phone-frame-content-2 {
+    width: 70%;
+    height: auto;
+    margin: 120px 15% 50px;
+}
+
+#right-text-content-2 {
+    width: 50%;
+    float: left;
+    height: auto;
+}
+
+#right-text-1 {
+    font-size: 24px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    margin-left: 35%;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.right-text-2 {
+    font-size: 40px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    line-height: 44px;
+    margin-top: 10px;
+    margin-left: 35%;
+    margin-bottom: -10px;
+}
+
+#left-text-content-2 {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+#left-text-1 {
+    font-size: 18px;
+    font-family: Arial;
+    color: white;
+    width: 70%;
+    line-height: 27px;
+    margin-top: 68px;
+}
+
+#left-text-2 {
+    font-size: 16px;
+    font-family: Arial;
+    color: white;
+}
+
+#content-3 {
     width: 100%;
     height: auto;
-    background-color: white;
+    margin-bottom: 120px;
 }
+
+#title-small-content-3 {
+    color: white;
+    margin-top: 80px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#title-large-content-3 {
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 0;
+}
+
+#img-1-content-3 {
+    margin-right: 43%;
+    margin-left: 43%;
+    width: 14%;
+    margin-bottom: 80px;
+}
+.text-content-3 {
+    font-family: Arial;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    width: 100%;
+}
+#img-detail-content-3 {
+    width: 100%;
+    margin-top: 80px;
+}
+.img-detail-ct3{
+    float: left;
+    width: 50%;
+}
+
+#content-4 {
+    width: 100%;
+    padding-top: 100px;
+    height: auto;
+    background-color: white;
+    clear: both;
+}
+
 #text-title-content-4 {
     text-transform: uppercase;
     color: black;
@@ -182,7 +308,6 @@ body {
     font-size: 60px;
     text-align: center;
     font-weight: bold;
-    padding: 10px 0;
 }
 
 #img-content-4 {
@@ -190,4 +315,103 @@ body {
     width: 70%;
     margin: 0 15%;
 
+}
+
+#component-box {
+    width: 70%;
+    margin: 0 15%;
+}
+
+#title-table-content-4 {
+    font-size: 22px;
+    font-family: Arial;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.td-content-4 {
+    font-size: 18px;
+    font-family: Arial;
+    line-height: 30px;
+}
+
+/*footer*/
+#footer-top{
+    width: 100%;
+    height: 200px;
+    background: #000;
+    position: relative;
+    display: block;
+}
+#control-prev{
+    background-image: url(images/button_arrow-left.png);
+    height: 25px;
+    background-position: 0 60%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    left: 0;
+    display: block;
+    position: absolute;
+    width: 250px;
+    padding: 85px 50px 65px 50px;
+}
+#control-next{
+    background-image: url(images/button_arrow-right.png);
+    background-position: 100% 60%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    text-align: right;
+    width: 250px;
+    padding: 85px 50px 65px 50px;
+    right: 0;
+}
+span{
+    font-size: 12px;
+
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+#footer-bottom{
+    display: block;
+    background: #161818;
+    position: relative;
+    width: auto;
+    height: 330px;
+}
+#span-text-footer-bottom{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    line-height: 48px;
+}
+#c_btn_pre-type2-order-button{
+    position: absolute;
+    padding-left: 45px;
+    padding-right: 45px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 13px;
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid;
+    text-transform: uppercase;
+    border-radius: 58px;
+    top: 100px;
+    left: 80px;
+}
+#button-sansang a:hover{
+    background: white;
+    color: black;
+}
+#image-banner-header-buy{
+    height: 330px;
+    position: absolute;
+    right: 0px;
 }
